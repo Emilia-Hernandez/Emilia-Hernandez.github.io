@@ -1,5 +1,5 @@
 # Emilia Hernandez  
-**Economist & Data Scientist  
+**Economist & Data Scientist**
 
 ---
 
