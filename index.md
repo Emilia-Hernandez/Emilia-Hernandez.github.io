@@ -2,10 +2,6 @@
 layout: default
 title: Emilia Hernandez
 description: Economist & Data Scientist
----
-
-# **Emilia Hernandez**  
-### Economist & Data Scientist  
 
 ---
 
