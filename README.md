@@ -25,7 +25,7 @@ I enjoy solving complex problems and blending economics and data science into me
 ### Research Assistant  
 (aug 2024- )
 *ITAM, Environmental and Development Studies*  
-- Conducted data analysis and field research on environmental policies and sustainable development. 
+- Conducted data analysis and field research on environmental policies and development. 
 - Supported projects focused on community-based development and policy evaluation.
 - Under Dr. Victoria Nuguer.
 
@@ -45,7 +45,11 @@ I enjoy solving complex problems and blending economics and data science into me
 
 - **Data Engineering Pipelines for Environmental Policy**  
   - Designed Python-based data pipelines for analyzing environmental taxes and economic indicators.  
-  - Integrated data from multiple sources, utilizing tools such as PostgreSQL, pandas, and pyenv.  
+  - Integrated data from multiple sources, utilizing tools such as PostgreSQL, pandas, and pyenv.
+    
+- **Data Engineering Pipelines for Fintech Impat in Developing Enviromnents**  
+  - Designed Python-based data pipelines for analyzing the Income Satatments and Balance Sheets.  
+  - Integrated data utilizing tools such as PostgreSQL and pandas.
 
 - **Dockerized JupyterLab Environment**  
   - Built and documented a reproducible Docker environment for data analysis and visualization.  
