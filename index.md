@@ -13,11 +13,14 @@ I enjoy solving complex problems and blending economics and data science into me
 ---
 
 ## **Education**  
-- **Bachelor's in Economics and Data Science**  
+- **Bachelor's in Economics (2027)**  
   *Instituto Tecnológico Autónomo de México (ITAM)*  
-  Focus on economic theory and creating data-driven models.
+  Focus on economic theory.  
 
-- **International Trade Course**  
+- **Bachelor's in Data Science (2027)**  
+  *Instituto Tecnológico Autónomo de México (ITAM)*
+
+- **International Trade Course (2024)**  
   *Universitat Pompeu Fabra (UPF)*  
 
 ---
