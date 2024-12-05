@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Generic
-description: Lorem ipsum dolor est
-image: assets/images/pic11.jpg
+title: Education
+description: 
+image: assets/images/upf.jpg
 nav-menu: true
 ---
-
-Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.
-
-Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.
+<h3>Economics</h3>
+<p>At ITAM, I am pursuing a Bachelor's degree in Economics, where I have built a strong foundation in economic theory and its application to real-world challenges. My studies have provided me with a deep understanding of macroeconomic and microeconomic principles, as well as the tools to critically analyze policy impacts and market dynamics. This program has allowed me to explore the complexities of economic systems and their interplay with social and environmental factors, shaping my ability to approach problems with both quantitative precision and contextual awareness. My biggest areas of intrest are political and monetary theory as well as international trade.</p>
+<h3>Data Science</h3>
+<p>Simultaneously, I am completing a Bachelor's degree in Data Science at ITAM, where I am honing my technical skills in programming, statistical modeling, and data engineering. Through hands-on projects and interdisciplinary coursework, I have developed expertise in tools such as Python, SQL, and Docker, enabling me to design and implement innovative solutions for data-driven challenges. This program has given me the opportunity to apply my skills to areas like environmental policy analysis, financial data integration, and advanced data visualization, fueling my passion for using technology to drive positive societal outcomes. I would love to explore sports analytics.</p>
+<h3>International Trade</h3>
+<p>I enriched my academic journey by completing an International Trade course at Universitat Pompeu Fabra in 2024. It allowed me to explore the intersection of international markets and policy frameworks, enhancing my ability to analyze trade-related issues with a global perspective. This course complemented my broader studies and deepened my appreciation for the interconnected nature of today’s economies. Spending a month in Barcelona, one of the most culturally rich cities in the world, was an incredible experience that expanded my horizons both academically and personally. Immersing myself in such a vibrant environment allowed me to gain valuable insights from a different perspective. The course at Universitat Pompeu Fabra was particularly unique, as everything was taught through the lens of the European Union and its overarching goals. This approach deepened my understanding of international trade and policy within the EU framework, giving me a broader and more nuanced perspective on global economic dynamics and their implications.</p>

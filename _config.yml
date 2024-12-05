@@ -1,44 +1,43 @@
-# site settings
-title: Forty
-subtitle: by HTML5 UP
-email: youremailaddress@gmail.com
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
-baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
-url: # the base hostname & protocol for your site
-author:
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
-country: United States of America
-phone: (716) 555-5555
+# Site settings
+title: "Emilia Hernández Medina"
+subtitle: "Student"
+email: "emilia.her.med2003@gmail.com"
+description: "Economy and Data Science student at ITAM, Mexico City.<br />Interested in development and environmental issues.<br /><br />CV: <a href='https://docs.google.com/document/d/1pJnTZruWpworaEEDDsJvPphk3CGkBPgT/edit?usp=sharing&ouid=109856916300184454189&rtpof=true&sd=true' target='_blank'>View CV</a>"
+baseurl: "" # Leave empty if deployed at the root
+url: "https://emilia-hernandez.github.io"
+author: "Emilia Hernández Medina"
+street_address: ""
+city: "Mexico City"
+state: ""
+zip_code: ""
+country: "Mexico"
+phone: "(+52) 55 2272 2265"
 
-# homepage tiles
-tiles-source: pages # accepts "posts" or "pages"
+# Homepage tiles
+tiles-source: "pages" # Accepts "posts" or "pages"
 tiles-count: 6
 
-# social settings (key must match name of font awesome icon)
-# see https://fontawesome.com/icons?d=gallery&p=2&s=brands
-# Icons are not shown if value is empty
-# You need to restart jekyll for changes to have an effect
+# Social settings
+# Icons are not shown if the value is empty
+# You need to restart Jekyll for changes to take effect
 socials:
-  GitHub: https://github.com/andrewbanchich
-  GitLab:
-  Google-Plus: https://plus.google.com/u/0/+AndrewBanchich
-  Instagram:
-  LinkedIn: https://www.linkedin.com/in/andrew-banchich-a4ba1195
-  Twitter: https://twitter.com/andrewbanchich
-  Facebook:
-  Slack:
+  GitHub: "https://github.com/Emilia-Hernandez"
+  GitLab: ""
+  Google-Plus: ""
+  Instagram: ""
+  LinkedIn: ""
+  Twitter: ""
+  Facebook: ""
+  Slack: ""
 
-# build settings
+# Build settings
 markdown: kramdown
 
 sass:
   style: compressed
 
 exclude:
-- "*.gemspec"
-- LICENSE.md
-- CONTRIBUTING.md
-- README.md 
+  - "*.gemspec"
+  - LICENSE.md
+  - CONTRIBUTING.md
+  - README.md

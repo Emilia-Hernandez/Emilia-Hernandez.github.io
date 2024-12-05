@@ -1,87 +1,59 @@
 ---
-title: Landing
+title: Projects
 layout: landing
-description: 'Lorem ipsum dolor sit amet nullam consequa<br />sed veroeros. tempus adipiscing nulla.'
-image: assets/images/pic07.jpg
-nav-menu: true
+description: 
+image: assets/images/data.jpg
 ---
 
 <!-- Main -->
 <div id="main">
 
-<!-- One -->
-<section id="one">
-	<div class="inner">
-		<header class="major">
-			<h2>Sed amet aliquam</h2>
-		</header>
-		<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
-	</div>
-</section>
+  <!-- One -->
+  <section id="one">
+    <div class="inner">
+      <p>Here you will find a curated collection of my repositories.</p>
+    </div>
+  </section>
 
-<!-- Two -->
-<section id="two" class="spotlights">
-	<section>
-		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pic08.jpg %}" alt="" data-position="center center" />
-		</a>
-		<div class="content">
-			<div class="inner">
-				<header class="major">
-					<h3>Orci maecenas</h3>
-				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
-				</ul>
-			</div>
-		</div>
-	</section>
-	<section>
-		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pic09.jpg %}" alt="" data-position="top center" />
-		</a>
-		<div class="content">
-			<div class="inner">
-				<header class="major">
-					<h3>Rhoncus magna</h3>
-				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
-				</ul>
-			</div>
-		</div>
-	</section>
-	<section>
-		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pic10.jpg %}" alt="" data-position="25% 25%" />
-		</a>
-		<div class="content">
-			<div class="inner">
-				<header class="major">
-					<h3>Sed nunc ligula</h3>
-				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
-				</ul>
-			</div>
-		</div>
-	</section>
-</section>
-
-<!-- Three -->
-<section id="three">
-	<div class="inner">
-		<header class="major">
-			<h2>Massa libero</h2>
-		</header>
-		<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
-		<ul class="actions">
-			<li><a href="generic.html" class="button next">Get Started</a></li>
-		</ul>
-	</div>
-</section>
-
+  <!-- Two -->
+  <section id="two" class="spotlights">
+    <!-- INEGI Shapefiles -->
+    <section>
+      <a href="https://github.com/Emilia-Hernandez/INEGI-Shp" class="image">
+        <img src="{{ site.baseurl }}/assets/images/shp.png" alt="INEGI Shapefiles" data-position="center center" />
+      </a>
+      <div class="content">
+        <div class="inner">
+          <header class="major">
+            <h3>INEGI Shapefiles</h3>
+          </header>
+          <p>
+            This project involved teaching a class about Shapefiles, which are used by INEGI (Instituto Nacional de Estadística y Geografía) to represent vector geospatial data. My classmates and I introduced the types of geometry in Shapefiles and their structure, followed by practical demonstrations of geometric functions and advanced techniques. We also prepared a theoretical presentation for those interested in the topic.
+          </p>
+          <ul class="actions">
+            <li><a href="https://github.com/Emilia-Hernandez/INEGI-Shp" class="button">Explore Repository</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- Chicago Crimes Database -->
+    <section>
+      <a href="https://github.com/Emilia-Hernandez/ChicagoCrimes" class="image">
+        <img src="{{ site.baseurl }}/assets/images/chicago.png" alt="Chicago Crimes Database" data-position="center center" />
+      </a>
+      <div class="content">
+        <div class="inner">
+          <header class="major">
+            <h3>Chicago Crimes Database</h3>
+          </header>
+          <p>
+            A comprehensive analysis of crime data in Chicago, focusing on trends, patterns, and policy implications.
+          </p>
+          <ul class="actions">
+            <li><a href="https://github.com/Emilia-Hernandez/ChicagoCrimes" class="button">Explore Repository</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </section>
 </div>
