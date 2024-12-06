@@ -3,48 +3,33 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - master  # Replace this with your default branch if it's not "master"
+      - master
 
 jobs:
-  deploy:
+  github-pages:
     runs-on: ubuntu-latest
-
     steps:
-      # Checkout the repository
-      - name: Checkout repository
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v2
 
-      # Set up Ruby environment
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.2.2'
+          ruby-version: '3.2.2' # Your Ruby version
 
-      # Install dependencies
+      - name: Update RubyGems
+        run: gem update --system
+
       - name: Install dependencies
-        run: |
-          gem update --system
-          bundle install
+        run: bundle install
 
-      # Build the site
       - name: Build the site
         run: bundle exec jekyll build
 
-      # Debug files in _site (Optional for troubleshooting)
-      - name: List built files
-        run: ls -R ./_site
-
-      # Add .nojekyll to bypass GitHub Pages processing
-      - name: Disable Jekyll on Pages
-        run: touch ./_site/.nojekyll
-
-      # Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
-          publish_branch: gh-pages
 
 
 
