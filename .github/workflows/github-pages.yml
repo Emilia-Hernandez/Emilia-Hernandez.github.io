@@ -3,45 +3,41 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - master  # Replace with your main branch name if needed
+      - master  # Replace with your default branch if it's not "master"
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Checkout the repository
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      # Step 2: Set up Ruby environment
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.2.2' # Replace with your Ruby version if different
+          ruby-version: '3.2.2'
 
-      # Step 3: Update RubyGems
-      - name: Update RubyGems
-        run: gem update --system
-
-      # Step 4: Install Jekyll and Bundler dependencies
       - name: Install dependencies
-        run: bundle install
+        run: |
+          gem update --system
+          bundle install
 
-      # Step 5: Build the site
       - name: Build the site
         run: bundle exec jekyll build
 
-      # Step 6: Add a .nojekyll file to bypass GitHub Pages Jekyll processing
+      - name: Debug files in _site
+        run: ls -R ./_site
+
       - name: Disable Jekyll processing
         run: touch ./_site/.nojekyll
 
-      # Step 7: Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site  # Path to the built site
-          publish_branch: gh-pages  # Branch used for GitHub Pages deployment
+          publish_dir: ./_site
+          publish_branch: gh-pages
+
 
 
