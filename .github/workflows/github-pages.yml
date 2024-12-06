@@ -6,21 +6,17 @@ on:
       - master
 
 jobs:
-  github-pages:
+  deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v2
-
-      - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: '3.2.2' # Your Ruby version
-
-      - name: Update RubyGems
-        run: gem update --system
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
       - name: Install dependencies
-        run: bundle install
+        run: |
+          gem install bundler
+          bundle install
 
       - name: Build the site
         run: bundle exec jekyll build
@@ -30,6 +26,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
-
-
+          publish_branch: gh-pages
 
