@@ -3,7 +3,6 @@ layout: page
 title: About Me
 description: 
 image: assets/images/barca.png
-nav-menu: true
 ---
 <!-- Main -->
 <div id="main" class="alt">
