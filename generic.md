@@ -3,7 +3,6 @@ layout: post
 title: Education
 description: 
 image: assets/images/upf.jpg
-nav-menu: true
 ---
 <h3>Economics</h3>
 <p>At ITAM, I am pursuing a Bachelor's degree in Economics, where I have built a strong foundation in economic theory and its application to real-world challenges. My studies have provided me with a deep understanding of macroeconomic and microeconomic principles, as well as the tools to critically analyze policy impacts and market dynamics. This program has allowed me to explore the complexities of economic systems and their interplay with social and environmental factors, shaping my ability to approach problems with both quantitative precision and contextual awareness. My biggest areas of intrest are political and monetary theory as well as international trade.</p>
