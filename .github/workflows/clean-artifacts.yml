@@ -1,22 +1,24 @@
-name: Delete Artifacts
+name: Delete All Artifacts
 
 on:
-  workflow_dispatch:  # Manual trigger
+  workflow_dispatch:  # Allows you to manually trigger this workflow
 
 jobs:
   cleanup:
     runs-on: ubuntu-latest
     steps:
-      - name: Fetch all artifacts
+      - name: Fetch all artifact IDs
         id: artifacts
         run: |
           curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
           "https://api.github.com/repos/${{ github.repository }}/actions/artifacts" \
-          | jq '.artifacts[] | select(.name=="github-pages") | .id' > artifact_ids.txt
+          | jq -r '.artifacts[] | .id' > artifact_ids.txt
+          echo "Found $(wc -l < artifact_ids.txt) artifacts."
 
-      - name: Delete all github-pages artifacts
+      - name: Delete all artifacts
         run: |
           for artifact_id in $(cat artifact_ids.txt); do
+            echo "Deleting artifact $artifact_id"
             curl -X DELETE -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-            "https://api.github.com/repos/${{ github.repository }}/actions/artifacts/${artifact_id}";
+            "https://api.github.com/repos/${{ github.repository }}/actions/artifacts/$artifact_id";
           done
