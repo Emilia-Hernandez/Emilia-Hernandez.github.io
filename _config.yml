@@ -11,7 +11,7 @@ city: "Mexico City"
 state: ""
 zip_code: ""
 country: "Mexico"
-phone: "(+52) 55 2272 2265"
+
 
 # Homepage tiles
 tiles-source: "pages" # Accepts "posts" or "pages"
@@ -22,13 +22,7 @@ tiles-count: 6
 # You need to restart Jekyll for changes to take effect
 socials:
   GitHub: "https://github.com/Emilia-Hernandez"
-  GitLab: ""
-  Google-Plus: ""
-  Instagram: ""
-  LinkedIn: ""
-  Twitter: ""
-  Facebook: ""
-  Slack: ""
+
 
 # Build settings
 markdown: kramdown
