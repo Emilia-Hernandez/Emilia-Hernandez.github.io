@@ -40,9 +40,7 @@ image: assets/images/barca.png
             I am excited to continue leveraging my skills to try and make a positive impact.
           </p>
         </div>
-  
-      </div>
-    </div>
+
   </section>
 
 </div>
